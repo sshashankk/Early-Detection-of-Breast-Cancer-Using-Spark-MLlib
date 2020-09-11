@@ -1,6 +1,6 @@
 # Early-Detection-of-Breast-Cancer-Using-Spark-MLlib-and-its-Analysis
 
-# Abstract
+### Abstract
 
 Breast cancer is causing widespread deaths and is one of the most common causes of cancers
 encountered around the world. These deaths can be reduced by early detection of cancerous
@@ -15,7 +15,7 @@ raw text data consisting of characteristics of the cell nuclei present in the im
 #Project Title:
 Early Detection of Breast Cancer Using Spark MLlib and its Analysis
 
-# Configuration: 
+### Configuration: 
 Python 2.7.13
 Spark 1.6.0
 Databricks csv package
@@ -23,7 +23,7 @@ Pandas
 Pyspark-SQL
 Pyspark-ml
 
-# Directory Structure and files
+### Directory Structure and files
 
 1. Make directory in HDFS
    hdfs dfs -mkdir /user/user/<user_id>/project
@@ -34,7 +34,7 @@ Pyspark-ml
 3. Verfify the files
    hdfs dfs -ls /user/<user_id>/project/
 
-# Building and executing the code
+### Building and executing the code
 
 1. Start pyspark by typing the following cmd:
 
@@ -48,7 +48,7 @@ Pyspark-ml
 
 4. The output of this execution(on terminal) is a list of predictions that have been made by the ML model with respect to a Malign(1) cell or Bening(0) cell.
 
-# Results
+### Results
 
 1. The classification goal is to predict whether the cell is Cancerous or not (Malignant/Benign)
 
