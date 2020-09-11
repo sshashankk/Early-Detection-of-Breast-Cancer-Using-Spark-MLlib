@@ -26,7 +26,7 @@ Pyspark-ml
 # Directory Structure and files
 
 1. Make directory in HDFS
-   hdfs dfs -mkdir /user/user/srl506/project
+   hdfs dfs -mkdir /user/user/<user_id>/project
 
 2. Put the data set in HDFS
    hdfs dfs -put /user/<user_id>/project/breast-cancer-wisconsin.data.csv
